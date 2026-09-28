@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Chao
+  - BonusPuloDuplo
+  - Moeda
+  - ChavePassaFase
+  - Final
+  - BotaoSair
+  - BotaoJogarFase1
+  - BotaoJogarFase2
+  - SairDoJogo
+  - Estrela
+  - Game Over
+  - Runa
+  - Menu
+  - GameOver
+  - Trampolim
+  - PedraCarregavel
+  - Pedra Carregavel
+  - Portal
+  - Portal2
+  - Destruir
+  - Caixa Coletavel
+  - Coletavel
+  - Inimigo
+  - DestruirInimigos
+  - Bau1
+  - BonusVelocidade
+  - BonusPulo
+  - Armadilha
+  - Morte
+  - destrutivel1
+  - destrutivel2
+  - destruirInimigo01
+  - inimigo01
+  - inimigo02
+  - destruirInimigo02
+  - Bonus1
+  - areaAtaqueEsquerda
+  - areaAtaqueDireita
+  - projetil1
+  - projetil2
+  - inimigo
+  - Boss1
+  - Boss2
+  - PocaoVida
+  - BonusProjetil
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Chao
+  - Parede
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
