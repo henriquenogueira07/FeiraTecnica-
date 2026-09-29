@@ -8,7 +8,7 @@ public class menuPrincipal : MonoBehaviour {
 	[SerializeField] private string nomeFase;
 	[SerializeField] private GameObject painelOpcoes;
 	[SerializeField] private GameObject painelMenuPrincipal;
-	[SerializeField] private GameObject painelFases;
+	[SerializeField] private GameObject painelControles;
 	public void Jogar()
 	{
 		SceneManager.LoadScene (nomeFase);
@@ -24,6 +24,18 @@ public class menuPrincipal : MonoBehaviour {
 	{
 		painelOpcoes.SetActive (false);
 		painelMenuPrincipal.SetActive (true);
+	}
+
+	public void AbrirControles()
+	{
+		painelControles.SetActive (true);
+		painelOpcoes.SetActive (false);
+	}
+
+	public void FecharControles()
+	{
+		painelControles.SetActive (false);
+		painelOpcoes.SetActive (true);
 	}
 
 	public void SairJogo()
