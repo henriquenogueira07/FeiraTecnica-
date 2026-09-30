@@ -388,6 +388,7 @@ public class Personagem : MonoBehaviour
         Vida = 0;
         AtualizarHUDVida();
         Time.timeScale = 1f;
+        EstadoJogo.FaseParaReiniciar = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene(CenaGameOver);
     }
 
